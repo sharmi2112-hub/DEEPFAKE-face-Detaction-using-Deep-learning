@@ -1,11 +1,14 @@
 # 🕵️ Deepfake Face Detection Using Custom CNN Architectures
 
+[![Live Web App](https://img.shields.io/badge/🚀_Live_Web_App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://deepfake-face-detaction-using-deep-learning-kz5ysgjthhxgv2y9hn.streamlit.app/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow 2.15+](https://img.shields.io/badge/TensorFlow-2.15+-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://share.streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.style=for-the-badge)](LICENSE)
 
 An end-to-end Deep Learning research project and interactive web application designed to classify facial images as **Real** or **Deepfake (Synthetic Generation)** using custom Convolutional Neural Network (CNN) architectures built from scratch.
+
+> 🌐 **Try the Live Application Online**:  
+> [https://deepfake-face-detaction-using-deep-learning-kz5ysgjthhxgv2y9hn.streamlit.app/](https://deepfake-face-detaction-using-deep-learning-kz5ysgjthhxgv2y9hn.streamlit.app/)
 
 ---
 
@@ -68,9 +71,11 @@ Three distinct custom CNN architectures were engineered and compared under ident
 
 ## 🌐 Interactive Streamlit Web Application
 
-The best-performing model (`deepfake_model.keras`) is integrated into a lightweight **Streamlit** web application for real-time inference.
+The best-performing model (`deepfake_model.keras`) is integrated into a lightweight **Streamlit** web application hosted live online.
 
-### Features:
+👉 **Direct Web App Link**: [https://deepfake-face-detaction-using-deep-learning-kz5ysgjthhxgv2y9hn.streamlit.app/](https://deepfake-face-detaction-using-deep-learning-kz5ysgjthhxgv2y9hn.streamlit.app/)
+
+### Web Features:
 - 📤 **Image Upload**: Accepts JPG, JPEG, and PNG image formats.
 - ⚡ **Real-Time Classification**: Instant preprocessing and inference.
 - 🎯 **Visual Confidence Gauge**: Displays prediction probabilities, classification verdict badges, and confidence metrics.
@@ -89,39 +94,6 @@ The best-performing model (`deepfake_model.keras`) is integrated into a lightwei
 ├── README.md                         # Project documentation
 └── .gitignore                        # Git ignore rules for cached & temporary files
 ```
-
----
-
-## 🚀 Quick Start Guide
-
-### 1. Prerequisites & Installation
-
-Clone the repository and install the required dependencies:
-
-```bash
-git clone https://github.com/sharmi2112-hub/DEEPFAKE-face-Detaction-using-Deep-learning.git
-cd DEEPFAKE-face-Detaction-using-Deep-learning
-pip install -r requirements.txt
-```
-
-### 2. Run Streamlit Application Locally
-
-```bash
-streamlit run app.py
-```
-
-Open your browser at `http://localhost:8501`.
-
----
-
-## ☁️ Streamlit Cloud Deployment
-
-This repository is pre-configured for **Streamlit Community Cloud** deployment:
-
-1. Log in to [share.streamlit.io](https://share.streamlit.io/).
-2. Click **New App** and select repository `sharmi2112-hub/DEEPFAKE-face-Detaction-using-Deep-learning`.
-3. Set **Main file path**: `app.py`.
-4. Click **Deploy!**
 
 ---
 
