@@ -2,6 +2,7 @@
 *.docx
 *.pdf
 *Report*
+*Brief*
 
 # Python
 __pycache__/
@@ -15,7 +16,7 @@ env/
 venv/
 ENV/
 
-# Jupyter
+# Jupyter Checkpoints
 .ipynb_checkpoints/
 
 # IDEs
