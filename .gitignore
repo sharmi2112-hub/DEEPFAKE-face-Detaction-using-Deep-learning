@@ -1,3 +1,8 @@
+# Reports and Coursework Documents
+*.docx
+*.pdf
+*Report*
+
 # Python
 __pycache__/
 *.py[cod]
